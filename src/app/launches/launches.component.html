@@ -1,0 +1,8 @@
+<app-launch-card  [launch]="latestLaunch"></app-launch-card>
+
+<!-- {{latestLaunch | json}} -->
+<div *ngFor="let launch of upcomingLaunch">
+    <app-launch-card  [launch]="launch"></app-launch-card>
+</div>
+
+
